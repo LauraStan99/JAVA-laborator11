@@ -8,18 +8,18 @@ public class Players {
 * am definit id-ul ca fiind cheia primara a tabelului 'players'
 * */
     @Id
-    Integer id;
+    Long id;
     String name;
 
     public String getName() {
         return name;
     }
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
